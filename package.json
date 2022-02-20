@@ -1,0 +1,21 @@
+{
+  "name": "TestNodeJsBackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "npx prisma migrate dev"
+  },
+  "type": "module",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.9.2",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "prisma": "^3.9.2"
+  }
+}
